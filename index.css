@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+* {
+	box-sizing: border-box;
+	max-width: 1440px;
+}
+.cards {
+	display: flex;
+	padding: 171px 260px 129px 260px;
+}
+.card {
+	background-color: #e28625;
+	padding: 48px;
+	color: white;
+}
+.card__heading {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Big Shoulders Display;
+	margin-bottom: 25px;
+	margin-top: 35px;
+}
+.card__paragraph {
+	font-size: 15px;
+	font-family: Lexend Deca;
+	line-height: 25px;
+	//margin-bottom: 83px;
+}
+.card__button {
+	padding-left: 31.5px;
+	padding-right: 31.5px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	border: none;
+	border-radius: 25px;
+	background-color: white;
+	font-family: Lexend Deca;
+	line-height: 25px;
+	color: #e28625;
+	margin-bottom: 48px;
+	margin-top: 83px;
+}
+.card__button:hover {
+	color: white;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #e28625;
+	cursor: pointer;
+}
+.card__two {
+	background-color: #006971;
+}
+.card__two__button {
+	color: #006971;
+}
+.card__two__button:hover {
+	background-color: #006971;
+}
+.card__three {
+	background-color: #004140;
+}
+.card__three__button {
+	color: #004140;
+}
+.card__three__button:hover {
+	background-color: #004140;
+}
+
+@media only screen and (max-width: 1260px) {
+	.cards {
+		display: flex;
+		flex-direction: column;
+		padding: 88px 24px 88px 24px;
+	}
+	.card__paragraph {
+		margin-bottom: 25px;
+	}
+}

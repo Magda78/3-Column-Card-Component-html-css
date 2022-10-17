@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
-* {
+body {
 	box-sizing: border-box;
 	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 .cards {
 	display: flex;
-	padding: 171px 260px 129px 260px;
+	//padding: 171px 260px 129px 260px;
 }
 .card {
+	width: 207px;
 	background-color: #e28625;
 	padding: 48px;
 	color: white;
+	
 }
 .card__heading {
 	font-size: 40px;
